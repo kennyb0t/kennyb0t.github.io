@@ -82,6 +82,7 @@ a {
 .sociais {
     position: fixed;
     top: 20px;
+    width: 5%;
 }
 
 .sociais ul {
@@ -153,9 +154,11 @@ a {
     position: relative;
     margin-top: 150px;
     margin-left: 250px;
+    width: fit-content;
 }
 
 .title {
     color: #f6f4e6;
     font-size: 52px;
+    width: fit-content;
 }
