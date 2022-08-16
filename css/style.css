@@ -1,18 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-
-/*
-    * {
-        margin: 0;
-        padding: 0;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-    config global sem uso.
-    */
-
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Mouse+Memoirs&display=swap");
 body {
+    margin: 0;
     background: #272727;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.bg {
+    background-image: url(/img/bg_01.jpg);
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
 }
 
 .navMenu {
@@ -93,8 +96,7 @@ a {
 .sociais ul li {
     display: block;
     margin: 2px;
-    background: #272727;
-    width: 300px;
+    width: 305px;
     text-align: right;
     padding: 10px;
     border-radius: 0 42px 72px 0;
@@ -150,15 +152,30 @@ a {
     transform: rotate(0deg);
 }
 
-.main-title {
+.title {
     position: relative;
-    margin-top: 150px;
+    margin-top: 10px;
     margin-left: 250px;
     width: fit-content;
 }
 
 .title {
     color: #f6f4e6;
-    font-size: 52px;
+    font-size: 32px;
     width: fit-content;
+}
+
+#container {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
