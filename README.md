@@ -1,2 +1,2 @@
 # project_KNY
-Portfolio de projetos frontEnd.
+Portfolio de projetos frontend.
