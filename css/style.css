@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Mouse+Memoirs&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     background: #272727;
@@ -126,6 +131,11 @@ a {
 .sociais ul #tt:hover {
     transform: translate(90px, 0);
     background: #00acee;
+}
+
+.sociais ul #yt:hover {
+    transform: translate(90px, 0);
+    background: #c4302b;
 }
 
 .sociais ul li:hover a {
